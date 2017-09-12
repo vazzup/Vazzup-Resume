@@ -1,0 +1,166 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://linkedin.com/in/vazzup}{\Large Vatsal Kanakiya}} & Email : \href{mailto:vatsalkanakiya@gmail.com}{vatsalkanakiya@gmail.com}\\
+  \href{http://linkedin.com/in/vazzup}{linkedin.com/in/vazzup} -- \href{http://github.com/vazzup}{github.com/vazzup} -- \href{http://codechef.com/users/vazzup}{codechef.com/users/vazzup} & Mobile : +91-982-137-2343 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {K. J. Somaiya College of Engineering}{Mumbai, India}
+      {Bachelor of Technology in Computer Engineering}{Aug. 2014 -- Current}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Morgan Stanley}{Mumbai, India}
+      {Summer Technology Analyst}{May 2017 -- July 2017}
+      \resumeItemListStart
+        \resumeItem{Controller's Workbench}
+          {Implemented a unique algorithm to store and retrieve hierarchical data to and from a relational database in a paginated fashion which led to a drastic improvement in the performance of the application under huge stress.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {L. V. Prasad Eye Institute}{Hyderabad, India}
+      {LVP-MITRA Research Fellow}{Jan 2014 - Oct 2016}
+      \resumeItemListStart
+        \resumeItem{Pediatric Perimeter}
+          {Worked on the software and hardware of the device}
+        \resumeItem{Gaze Tracking}
+          {Was mentor of the Gaze Tracking project at the 'Engineering the Eye' Hackathon 2016. Implemented unique Image Processing and Machine Learning algorithms to achieve the same.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EXTRACURRICULAR------------
+\section{Extra Curricular}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Committee Head, KJSCE Codecell}{Mumbai, India}
+      {Led a team of 11 members to conduct various seminars and workshops for fellow students}{July 2016 -- May 2017}
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Automated Gait Generation for Simulated Machines{\em (Ongoing)}}
+      {L. Y. Project which generates gait for simulated machines with no external input using only Self Modelling and Reinforcement Learning.}
+    \resumeSubItem{Controller's Workbench}
+      {A visualisation tool for financial data, written in C\#.}
+    \resumeSubItem{Pediatric Perimeter}
+      {A first of its kind device to measure the visual fields of infants to detect defects and help provide early stage medical aid.}
+    \resumeSubItem{TypeRacer Terminal}
+      {A terminal application which allows users to practise and improve typing speed and accuracy. Written in Python using the ncurses library.}
+    \resumeSubItem{VazzupOJ}
+      {A barebones online judge on the lines of SPOJ and OVaOJ.}
+  \resumeSubHeadingListEnd
+%--------------------------------------
+
+%--------COMPETITIONS------------------
+\section{Competitions}
+  \resumeSubHeadingListStart
+    \resumeSubheading{DJSCE Code Uncode}{Mumbai}{3\textsuperscript{rd}/200 participants}{Feb 2016}
+    \resumeSubheading{ACM ICPC Asia Regionals}{Chennai}{73\textsuperscript{rd}/867 teams}{Dec 2016}
+    \resumeSubheading{ACM ICPC Asia Regionals}{Amritapuri}{219\textsuperscript{th}/1981 teams}{Dec 2016}
+    \resumeSubheading{ACM ICPC Asia Regionals}{Amritapuri}{228\textsuperscript{th}/1572 teams}{Dec 2015}
+  \resumeSubHeadingListEnd
+%--------------------------------------
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: C / C++, Java, Python3, C\#}
+      \hfill
+    }
+    \vspace{-4pt}
+    \item{
+      \textbf{Web Technologies}{: HTML / CSS, Javascript, Typescript, PHP, SQL, Angular, Django}
+      \hfill
+    }
+    \vspace{-4pt}
+    \item{
+      \textbf{ML / DL Frameworks}{: Tensorflow, Keras, Pytorch, Scikit-learn}
+      \hfill
+    }
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
